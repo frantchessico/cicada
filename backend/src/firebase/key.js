@@ -1,12 +1,12 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyAqjoNlW4XaBN1z8F0UAt_94gO5HH0ZF6U",
-    authDomain: "savanapointofficial.firebaseapp.com",
-    databaseURL: "https://savanapointofficial.firebaseio.com",
-    projectId: "savanapointofficial",
-    storageBucket: "savanapointofficial.appspot.com",
-    messagingSenderId: "348950683204",
-    appId: "1:348950683204:web:df3c14351ea01f51452611",
-    measurementId: "G-KLLSRWNLML"
+  apiKey: "AIzaSyD5Kp_CM8MuQl94oIFsjbpBuq9sHTbcNhM",
+  authDomain: "cicadha.firebaseapp.com",
+  databaseURL: "https://cicadha.firebaseio.com",
+  projectId: "cicadha",
+  storageBucket: "cicadha.appspot.com",
+  messagingSenderId: "471514890461",
+  appId: "1:471514890461:web:6730e777969b6862445b34",
+  measurementId: "G-Q4JD8W5NSQ"
   };
 
 

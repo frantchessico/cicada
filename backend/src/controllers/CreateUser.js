@@ -5,9 +5,8 @@ module.exports = {
         const { email, password } = req.body;
         const auth = firebase.auth();
 
-        const createOneUser = await auth.createUserWithEmailAndPassword(email, password);
-        createOneUser
-        .then((data) => {
+        await auth.createUserWithEmailAndPassword(email, password)
+       .then((data) => {
             console.log('Your account was created succefully');
             return res.json(data)
         })
