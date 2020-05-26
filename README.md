@@ -1,2 +1,2 @@
 # Cicada
-## Um projecto open source
+## Aguarde
