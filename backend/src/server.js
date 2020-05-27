@@ -2,7 +2,7 @@ const express = require('express');
 
 const app = express();
 
-require('./db/db');
+
 const routes = require('./routes/routes')
 
 

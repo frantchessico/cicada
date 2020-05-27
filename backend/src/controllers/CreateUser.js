@@ -21,7 +21,40 @@ module.exports = {
 
    
     
+async updateUser(req, res) {
+    const { 
+        firstName, 
+        lastName, 
+        photoUrl, 
+        userName, 
+        phoneNumber 
+    }  = req.body;
 
+   const auth = firebase.auth();
+
+  await auth.currentUser.updateProfile({
+    displayName: firstName + ' ' +lastName,
+    photoUrl, 
+    
+   }).then(async data => {
+       const db = firebase.firestore();
+       await db.collection('users').add({
+        firstName, 
+        lastName, 
+        photoUrl, 
+        userName, 
+        phoneNumber 
+       }).then(data => {
+        return res.json(data)
+       }).catch(err => {
+        return res.json(err)
+       })
+       
+   })
+   .catch(err => {
+       return res.json(err)
+   })
+}
     
 }
 
