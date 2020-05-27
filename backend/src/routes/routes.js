@@ -1,6 +1,6 @@
 const router = require('express').Router();
 
-const User = require('../controllers/CreateUser');
+const User = require('../controllers/HandlerUser');
 const Login = require('../controllers/Login')
 
 
