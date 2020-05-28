@@ -27,5 +27,9 @@
 ``git clone https://github.com/frantchessico/cicada.git``
 
 ```cd backend```
+<br>
+
 ``npm i``
+<br>
+
 ``npm run serve``
