@@ -20,3 +20,12 @@
 
 <p>Neste momento está sendo desenvolvida a API de Cicada</p>
 <p>Os processos de Cadastro e Login Já estão quase prontos</p>
+
+
+<h2>Como usar:</h2>
+
+``git clone https://github.com/frantchessico/cicada.git``
+
+```cd backend```
+``npm i``
+``npm run serve``
