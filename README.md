@@ -29,7 +29,7 @@
 ```cd backend```
 <br>
 
-``npm i``
+```npm i```
 <br>
 
 ``npm run serve``
