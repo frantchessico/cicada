@@ -33,3 +33,6 @@
 <br>
 
 ``npm run serve``
+```javascript
+const name = 'Francisco'
+```
